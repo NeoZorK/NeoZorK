@@ -1,5 +1,3 @@
-# Hi! I'm NeoZorK 👋
-
 **Quantitative developer & researcher focused on robust, production-grade trading systems.**  
 I design and build end-to-end platforms for algorithmic trading, prediction, indicators and data analysis across crypto and traditional markets, from research pipelines and models to execution, monitoring and automation.
 
