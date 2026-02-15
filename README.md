@@ -176,21 +176,6 @@ These projects emphasize:
 - Machine learning applications in finance with a focus on robustness
 - Model validation, monitoring and continuous improvement in live environments
 
-## 💰 Support the Project
-
-If you find my work valuable and want to support the development of these open-source tools, you can make a Bitcoin donation:
-
-![Bitcoin Donation QR Code](https://raw.githubusercontent.com/NeoZorK/Rost_MQL5_Experts/main/assets/images/bitcoin_donation_qr.png)
-
-**Bitcoin Address:** `bc1qm0ynz8tk2em3zr8agv5j3550vpm420z3hxd`
-
-*Your support helps maintain and improve these tools for the trading community.*
-
-## 📬 Contact Me
-
-- LinkedIn: [rostyslav-sh-](https://www.linkedin.com/in/rostyslav-sh-)
-- YouTube: [Filo de Ma Analytics](https://www.youtube.com/@filodemaanalytics6342)
-
 ---
 
 **Open to cooperation and new interesting projects!**
