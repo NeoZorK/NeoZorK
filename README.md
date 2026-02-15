@@ -12,9 +12,6 @@ I am a Quantitative Developer & Researcher with experience across:
 - Robust validation frameworks to avoid overfitting and improve live performance
 - Developer tooling and infrastructure for research productivity and reliability
 
-- LinkedIn: [rostyslav-sh-](https://www.linkedin.com/in/rostyslav-sh-)
-- YouTube: [Filo de Ma Analytics](https://www.youtube.com/@filodemaanalytics6342)
-
 ## 🛠️ Technologies I Work With
 
 - **Trading Platforms:** MQL5 / MT5 (experts, indicators, trading robots)
@@ -118,14 +115,6 @@ The **neozork-hld-prediction** project represents a breakthrough in financial ti
 ### Why This Project Exists
 
 The development of this project was motivated by the realization that traditional backtesting approaches often produce **overfitted results** that fail in live trading. This is a critical issue in quantitative finance where models may perform exceptionally well on historical data but fail to generalize to new market conditions.
-
-## 📺 Video Demonstration: The Overfitting Problem
-
-Watch this video from [Filo de Ma Analytics](https://www.youtube.com/@filodemaanalytics6342) that demonstrates the classic overfitted backtest results:
-
-[![Overfitted Backtest Results - Filo de Ma Analytics](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
-
-*This video showcases overfitted backtest results - a common pitfall in algorithmic trading that inspired the creation of a robust ML platform.*
 
 ## 🧠 Machine Learning Platform Development
 
