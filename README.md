@@ -4,9 +4,9 @@
 
 I work at the intersection of financial time series, algorithmic trading, public benchmarking, high-performance C++/Python systems, MetaTrader/MQL5 integration, and operational automation. My focus is not only to find signals, but to build systems that can be tested, reproduced, monitored, and challenged honestly.
 
-## Current R&D Highlight: Open Wave Public Benchmarks
+## Current R&D Highlight: ClaimBound Public Benchmarks
 
-**[open-wave-public-benchmarks](https://github.com/NeoZorK/open-wave-public-benchmarks)** is my newest public R&D result: an open-source foreground for pre-registered public time-series evaluation.
+**[claimbound-public-benchmarks](https://github.com/NeoZorK/claimbound-public-benchmarks)** is my newest public R&D result: an open-source foreground for pre-registered public time-series evaluation.
 
 The repository is designed around reproducibility discipline:
 
@@ -33,7 +33,7 @@ That does **not** claim universal forecasting edge, deployment readiness, or sup
 
 ## Public Projects
 
-### [open-wave-public-benchmarks](https://github.com/NeoZorK/open-wave-public-benchmarks)
+### [claimbound-public-benchmarks](https://github.com/NeoZorK/claimbound-public-benchmarks)
 
 Open benchmark foreground for public time-series evaluation. The project demonstrates how I structure public R&D claims: pre-register the task, freeze the evaluation path, keep payload boundaries clean, publish hashes and summaries, and state residual risks clearly.
 
