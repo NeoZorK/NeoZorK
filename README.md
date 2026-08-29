@@ -1,4 +1,4 @@
-# Hi, I'm NeoZorK
+# Hi, I'm Rost
 
 **Quantitative developer and R&D engineer building reproducible benchmark tooling, trading research platforms, and production-oriented market infrastructure.**
 
