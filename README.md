@@ -26,7 +26,7 @@ I build **algorithmic trading systems** and **quantitative research infrastructu
 ## Active work
 
 1. **[Monte-Neo](https://github.com/NeoZorK/Monte-Neo)** — an independent verifier for trading strategies written by AI agents and humans. It looks for look-ahead bias, hidden trading costs and overfitting before a backtest reaches real money, and issues reproducible, signable certificates. Adapters for common backtesting frameworks; MCP server for agents.
-2. **[ClaimBound Evidence](https://github.com/ClaimBound/claimbound-evidence)** — preregistered evidence discipline (rigor signal; not the hero product)
+2. **[ClaimBound Evidence](https://github.com/ClaimBound/claimbound-evidence)** — preregistered evidence discipline
 
 > Green / `PASSED_UNDER_PROTOCOL` ≠ independently reproduced. Most public cards remain single-operator until a separate rerun.
 
