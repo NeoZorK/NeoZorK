@@ -1,51 +1,67 @@
-# Rost S. — Quant / Trading Systems R&D
+<div align="center">
 
-I build **algorithmic trading systems** and **quantitative research infrastructure**, with 12+ years of hands-on experience in trading software (including deep MT4/MT5/MQL5 domain work).
+# Rostyslav Shcherbyna · NeoZorK Research
 
-**Focus:** turning trading ideas into testable, reproducible, production-oriented systems.
+**Independent researcher & engineer**<br>
+Time series across domains · AI agents · verification & reproducibility · data infrastructure
 
-> **About the name.** *NeoZorK* is my GitHub handle for software engineering work. It is not connected to any video blogger, streamer, gaming channel or game account that uses the same or a similar nickname. This profile contains only professional work: trading systems, research tooling and open-source software.
+[**neozork.github.io**](https://neozork.github.io) · [QWC evidence atlas](https://neozork.github.io/qwc.html) · [Live Lab](https://neozork.github.io/lab.html) · [ORCID 0009-0000-3773-5789](https://orcid.org/0009-0000-3773-5789)
 
-## Current focus
+*Testing what data and AI systems really support, and publishing what fails.*
 
-- Algorithmic trading and market research
-- Python / C++ trading infrastructure
-- Quantitative validation and backtesting
-- AI-assisted R&D (as a development multiplier, not a job title)
-- Proprietary market analytics
+</div>
 
-## Stack hierarchy
+---
 
-| Layer | What |
-| --- | --- |
-| **Core** | Algorithmic trading · trading systems · Quant R&D |
-| **Strong** | Trading architecture · validation · MQL5/C++ domain depth |
-| **Applied** | Python · FastAPI · PostgreSQL · Docker |
-| **Emerging** | ML / LLM tooling · local AI workflows · MLX |
+## What I work on
 
-## Active work
+| | |
+|---|---|
+| **Time series, any domain** | Regimes, thresholds, change detection: markets and non-market signals alike |
+| **Quantitative research** | Backtest validation, market-data pipelines, MetaTrader / MQL for 15+ years (research and paper trading only) |
+| **Econophysics & quantum-inspired modelling** | QWC, below |
+| **AI agents & local LLM infrastructure** | Local-first agents on Apple silicon, MLX, pipelines with validators and human gates |
+| **Verification & reproducibility** | Evidence cards, frozen protocols, hashed sources: Monte-Neo, ClaimBound Evidence |
+| **Knowledge engines** | Content-addressed claims in a typed graph, immutable snapshots, agents that only propose |
+| **Data infrastructure** | Collectors, Postgres / Redis, dashboards, monitors, backups with restore drills |
 
-1. **[Monte-Neo](https://github.com/NeoZorK/Monte-Neo)** — an independent verifier for trading strategies written by AI agents and humans. It looks for look-ahead bias, hidden trading costs and overfitting before a backtest reaches real money, and issues reproducible, signable certificates. Adapters for common backtesting frameworks; MCP server for agents.
-2. **[ClaimBound Evidence](https://github.com/ClaimBound/claimbound-evidence)** — preregistered evidence discipline
+## Flagship: QWC, the Quantum Wave Core
 
-> Green / `PASSED_UNDER_PROTOCOL` ≠ independently reproduced. Most public cards remain single-operator until a separate rerun.
+A quantum-inspired, wave-based framework for time series, developed independently and audited the way any other claim should be: **26 named laws, 5 axioms, 27 pre-registered experiments, hash-frozen before they ran.** The public record includes what failed.
 
-## Archived prototypes
+- One replicated advantage: an unmodified alarm threshold stays usable on **34.2 %** of 237 source→target pairs from 23 public sources, against 19.8 % for a range check. Replicated twice; a blind third run was inconclusive.
+- Refuted or not supported: directional prediction, shape-change early warning, wave rules, a published density normalisation. All published.
+- Where measurement disagrees with theory is on the page, not hidden.
 
-Kept public for reference, read-only, and described as they are. None of them is a working trading product.
+Mechanics, formulas and parameters stay private; the audit is public: **[explore the atlas →](https://neozork.github.io/qwc.html)**
 
-| Repository | What it was | What is actually there |
-| --- | --- | --- |
-| [trading-data-replay-engine](https://github.com/NeoZorK/trading-data-replay-engine) | A two-hour engineering exercise: replay of historical and live quotes | Latency-aware replay order (`timestamp + latency`), Redis queue, mid-price processor. The arrival-time idea continues in Monte-Neo's verification checks. |
-| [DEXArb](https://github.com/NeoZorK/DEXArb) | EVM DEX pool scanner (C++) | Multi-threaded factory and pool scan over public JSON-RPC. No arbitrage detection, execution or wallet logic. |
-| [NeoZorK3](https://github.com/NeoZorK/NeoZorK3) | Solana arbitrage-bot skeleton (C++) | CLI, configuration, RPC endpoint discovery. The arbitrage engine and transaction signing are stubs. |
-| [neo-slack-bot-production](https://github.com/NeoZorK/neo-slack-bot-production) | Personal Slack Socket Mode client (C++) | Socket Mode connection with native macOS notifications; v0.0.7, not battle-tested. |
+## Open source
 
-## AI-assisted R&D
+- **[Monte-Neo](https://github.com/NeoZorK/Monte-Neo)** · MIT · PyPI · MCP registry. The independent verifier for trading strategies written by AI agents and humans: look-ahead bias, hidden costs, overfitting. CLI, GitHub Action, MCP server, signed certificates. *In development, not yet released: a phantom-profit check, building on my first arXiv paper.*
+- **[ClaimBound Evidence](https://github.com/ClaimBound/claimbound-evidence)** · Apache-2.0 · PyPI · conda-forge. Evidence cards for narrow public AI, ML and data claims: frozen protocol, hashed sources, exact status, claim boundary. Started 29 April 2026 as *OpenWave*, renamed ClaimBound on 1 May 2026 (git history). Most public cards are single-operator, not independently reproduced, and the project says so.
 
-I use modern AI coding/reasoning systems (Claude, GPT, Gemini, Grok, Cursor, local LLMs) to accelerate research iteration, refactoring, tests, experiment automation, and trading-system prototyping — not as “generic AI development.”
+## Research platforms
 
-## Contact
+Neo-Planet (public events → causal chains → Monte Carlo, paper only) · Alpha Cascade Factory (a fail-closed hypothesis factory: 4,054 hypotheses generated, none validated) · Canonis (evidence-bound knowledge engine) · NeoArc (verification-first code generation). Described, not open-sourced: [platforms](https://neozork.github.io/platforms.html).
 
-Open to **remote Quant Developer / Algorithmic Trading / Trading Systems R&D** roles.  
-GitHub: [@NeoZorK](https://github.com/NeoZorK)
+## How I work
+
+1. Register the hypothesis and the test **before** looking at results.
+2. Freeze protocol and data with hashes. Never revise thresholds afterwards.
+3. Test out of sample, net of realistic costs.
+4. Publish failures with the same care as successes.
+5. Ship the experiment so a stranger can recompute the number.
+
+Since 2024 new code is written AI-assisted (Claude Code, Cursor, local models). I set the questions, design the architecture and validate every result.
+
+## Related work, honestly
+
+ClaimBound is independent of [EviBound](https://arxiv.org/abs/2511.05524) (R. Chen, arXiv, 28 Oct 2025), which I found after development started: EviBound gates the execution of research agents, ClaimBound records what one public claim supports and where it stops. More: [related work](https://neozork.github.io/opensource.html#related).
+
+## Not to be confused with
+
+*NeoZorK* is my research and engineering handle. It is **not affiliated** with the gaming channel of a similar name on YouTube, and ClaimBound Evidence is **not affiliated with claimbound.com** or any commercial product using a similar name.
+
+---
+
+<sub>© 2026 Rostyslav Shcherbyna (NeoZorK). All rights reserved. Nothing here is investment advice. Ukraine · remote (UTC+2/+3).</sub>
