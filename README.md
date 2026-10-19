@@ -2,10 +2,10 @@
 
 # Rostyslav Shcherbyna · NeoZorK Research
 
-**Independent researcher & engineer**<br>
+**Quantitative developer & independent researcher**<br>
 Time series across domains · AI agents · verification & reproducibility · data infrastructure
 
-[**neozork.github.io**](https://neozork.github.io) · [QWC evidence atlas](https://neozork.github.io/qwc.html) · [Live Lab](https://neozork.github.io/lab.html) · [ORCID 0009-0000-3773-5789](https://orcid.org/0009-0000-3773-5789)
+[**neozork.github.io**](https://neozork.github.io) · [QWC evidence atlas](https://neozork.github.io/qwc.html) · [Live Lab](https://neozork.github.io/lab.html) · [ORCID 0009-0000-3773-5789](https://orcid.org/0009-0000-3773-5789) · [Zenodo](https://doi.org/10.5281/zenodo.23479894) · [OpenAIRE](https://explore.openaire.eu/search/result?id=od______2659%3A%3Ad7c40fba4087e0752ef89d2d1fd250f1) · [LinkedIn](https://www.linkedin.com/in/rostyslav-sh-)
 
 *Testing what data and AI systems really support, and publishing what fails.*
 
@@ -37,7 +37,7 @@ Mechanics, formulas and parameters stay private; the audit is public: **[explore
 
 ## Open source
 
-- **[Monte-Neo](https://github.com/NeoZorK/Monte-Neo)** · MIT · PyPI · MCP registry. The independent verifier for trading strategies written by AI agents and humans: look-ahead bias, hidden costs, overfitting. CLI, GitHub Action, MCP server, signed certificates. *In development, not yet released: a phantom-profit check, building on my first arXiv paper.*
+- **[Monte-Neo](https://github.com/NeoZorK/Monte-Neo)** · MIT · PyPI · MCP registry. The independent verifier for trading strategies written by AI agents and humans: look-ahead bias, hidden costs, overfitting. CLI, GitHub Action, MCP server, signed certificates. *In development, not yet released: a phantom-profit check, planned alongside my first paper (not yet published).*
 - **[ClaimBound Evidence](https://github.com/ClaimBound/claimbound-evidence)** · Apache-2.0 · PyPI · conda-forge. Evidence cards for narrow public AI, ML and data claims: frozen protocol, hashed sources, exact status, claim boundary. Started 29 April 2026 as *OpenWave*, renamed ClaimBound on 1 May 2026 (git history). Most public cards are single-operator, not independently reproduced, and the project says so.
 
 ## Research platforms
