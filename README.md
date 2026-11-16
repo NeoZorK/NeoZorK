@@ -21,7 +21,7 @@ Time series across domains · AI agents · verification & reproducibility · dat
 | **Quantitative research** | Backtest validation, market-data pipelines, MetaTrader / MQL for 15+ years (research and paper trading only) |
 | **Econophysics & quantum-inspired modelling** | QWC, below |
 | **AI agents & local LLM infrastructure** | Local-first agents on Apple silicon, MLX, pipelines with validators and human gates |
-| **Verification & reproducibility** | Evidence cards, frozen protocols, hashed sources: Monte-Neo, ClaimBound Evidence |
+| **Verification & reproducibility** | Evidence cards, frozen protocols, hashed sources: Monte-Neo, Protocolith |
 | **Knowledge engines** | Content-addressed claims in a typed graph, immutable snapshots, agents that only propose |
 | **Data infrastructure** | Collectors, Postgres / Redis, dashboards, monitors, backups with restore drills |
 
@@ -38,7 +38,7 @@ Mechanics, formulas and parameters stay private; the audit is public: **[explore
 ## Open source
 
 - **[Monte-Neo](https://github.com/NeoZorK/Monte-Neo)** · MIT · PyPI · MCP registry. The independent verifier for trading strategies written by AI agents and humans: look-ahead bias, hidden costs, overfitting. CLI, GitHub Action, MCP server, signed certificates. *In development, not yet released: a phantom-profit check, planned alongside my first paper (not yet published).*
-- **[ClaimBound Evidence](https://github.com/ClaimBound/claimbound-evidence)** · Apache-2.0 · PyPI · conda-forge. Evidence cards for narrow public AI, ML and data claims: frozen protocol, hashed sources, exact status, claim boundary. Started 29 April 2026 as *OpenWave*, renamed ClaimBound on 1 May 2026 (git history). Most public cards are single-operator, not independently reproduced, and the project says so.
+- **[Protocolith](https://github.com/Protocolith/protocolith)** (formerly ClaimBound Evidence) · Apache-2.0 · PyPI. Evidence cards for narrow public AI, ML and data claims: frozen protocol, hashed sources, exact status, claim boundary. Started 29 April 2026 as *OpenWave*, renamed ClaimBound on 1 May 2026 and Protocolith on 16 November 2026 (git history). Most public cards are single-operator, not independently reproduced, and the project says so.
 
 ## Research platforms
 
@@ -54,13 +54,9 @@ Neo-Planet (public events → causal chains → Monte Carlo, paper only) · Alph
 
 Since 2024 new code is written AI-assisted (Claude Code, Cursor, local models). I set the questions, design the architecture and validate every result.
 
-## Related work, honestly
-
-ClaimBound is independent of [EviBound](https://arxiv.org/abs/2511.05524) (R. Chen, arXiv, 28 Oct 2025), which I found after development started: EviBound gates the execution of research agents, ClaimBound records what one public claim supports and where it stops. More: [related work](https://neozork.github.io/opensource.html#related).
-
 ## Not to be confused with
 
-*NeoZorK* is my research and engineering handle. It is **not affiliated** with the gaming channel of a similar name on YouTube, and ClaimBound Evidence is **not affiliated with claimbound.com** or any commercial product using a similar name.
+*NeoZorK* is my research and engineering handle. It is **not affiliated** with the gaming channel of a similar name on YouTube, and Protocolith (formerly ClaimBound Evidence) is independent open-source work.
 
 ---
 
